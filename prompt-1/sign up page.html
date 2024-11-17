@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer Sign-Up</title>
+    <link rel="stylesheet" href="./sign up page.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Volunteer Event Sign-Up</h1>
+        <p>Join us and make a difference!</p>
+        <form action="/submit" method="POST" class="signup-form">
+           
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+            
+            <label for="availability">Availability</label>
+            <select id="availability" name="availability">
+                <option value="morning">Morning</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+            </select>
+            
+            
+            <label for="comments">Additional Comments</label>
+            <textarea id="comments" name="comments" placeholder="Let us know if you have any special requirements."></textarea>
+            
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
