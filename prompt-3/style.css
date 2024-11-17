@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ html,
+ body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+ }
+
+ nav{
+    /* background: #946767; */
+    display: flex;
+    /* justify-content: space-between; */
+    
+ }
+ nav > img{
+    left: 0%;
+    width: 150px;
+    margin: 5px;
+ }
+ nav > ul {
+   overflow-x: hidden;
+ 
+    margin-left:850px ;
+    /* text-align: center; */
+
+    display: flex;
+   align-items: center;
+   list-style: none;
+   gap: 35px;
+   font-size: 20px;
+   font-weight: 600;
+  
+ }
+ nav ul li {
+    
+    mix-blend-mode: difference;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
+    /* transition: 1s 0.5s linear; */
+    transition: 1s all;
+ }
+ nav ul li:hover {
+    cursor: pointer;
+    border-bottom: 1px solid black;
+ }
+ nav button{
+   margin-top: 29px;
+   font-size: 20px;
+   border-radius: 6px;
+   /* border:none; */
+   color: white;
+   background: rgb(60, 15, 15);
+ }
+ section{
+   display: flex;
+   /* justify-content: space-between; */
+   /* align-items: center; */
+}
+section img {
+   /* margin-left: 50px; */
+   /* right: 0%; */
+   width: 800px;
+}
+section .left > h1 {
+   /* color: aqua; */
+   width: 40vw;
+   font-size: 80px;
+   /* display: inline; */
+
+}
+section .left{
+   margin-top: 150px;
+   margin-left: 50px;
+}
+section .right {
+   
+   margin-top: 80px;
+   margin-left: 120px; 
+}
+section .left > p {
+   color: rgb(41, 3, 3);
+}
+section .left > button {
+   color: white;
+   border-radius: 6px;
+   padding: 8px;
+   margin: 50px 20px;
+   cursor: pointer;
+   background:rgb(41, 3, 3);
+}
+section .right > button {
+   color: white;
+   /* position: relative; */
+   /* display: inline-block; */
+   padding: 20px;
+  
+   cursor: pointer;
+   background:rgb(41, 3, 3);
+}
+footer{
+   text-wrap: warp;
+   gap: 20px;
+   display: flex;
+   margin-top: 60px;
+   justify-content: space-between;
+   padding: 20px;
+   background-color: rgba(0, 0, 0,0.2);
+
+}
+footer > .sreach{
+   cursor: pointer;
+}
