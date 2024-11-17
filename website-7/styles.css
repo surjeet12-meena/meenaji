@@ -1,0 +1,252 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    font-family:helvetica;
+    background-color: rgba(223, 236, 240, 0.726);
+}
+.container{
+width: 100%;
+height: 100%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+
+}
+.header h1{
+    font-size: 55px;
+    color: rgb(1, 62, 43);
+}
+.header-product{
+    display: flex;
+    gap: 50px;
+    padding: 30px 0;
+}
+.header-product a {
+    text-decoration: none;
+    color: rgb(1, 62, 43);
+    
+}
+.header-product a:hover{
+    color: rgba(1, 62, 43, 0.441);
+   transition: 0.3s all ease;
+   font-size: 14px;
+    border-bottom: 1px solid  rgba(1, 62, 43, 0.441);
+}
+.header-button{
+    margin-top: 20px;
+}
+.header-button button{
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: rgba(18, 126, 141, 0.817);
+    margin-left: 12px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.header-button .login{
+    background: transparent;
+    box-shadow: 0 0 1px rgb(1, 62, 43) ;
+    color: rgb(1, 62, 43);
+}
+
+.get{
+    width: 100%;
+    height: 70%;
+    /* background-color: rgb(119, 171, 171); */
+    padding: 50px 150px ;
+}
+.get-box{
+    width: 100%;
+    height: 100%;
+    /* background-color: #fff; */
+    display: flex;
+}
+.get-box1{
+    width: 50%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+.get-box1 h3{
+    font-size: 65px;
+    font-weight: 500;
+    line-height: 80px;
+    
+}
+.get-box1 p {
+    margin: 25px 0;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.571);
+    line-height: 28px;
+}
+.get-box1 input{
+    padding: 18px 25px  ;
+    font-size: 16px;
+    width: 70%;
+    outline: none;
+    border: none;
+    border: 1px solid  rgba(128, 128, 128, 0.308);
+    border-radius:10px ;
+    margin: 10px;
+    
+}
+.get-box1 button{
+    padding: 14px 15px;
+    font-size: 14px;
+    background-color: rgba(18, 126, 141, 0.817);
+    color: white;
+    border: none;
+    border-radius: 10px;
+margin:0px -147px ;
+}
+.get-box1 button i{
+    margin:0 5px ;
+    font-size: 18px;
+}
+.get-box2{
+    width: 50%;
+    height: 100%;
+    /* background-color: hotpink; */
+    background-image: url(https://cdn.dribbble.com/userupload/10136128/file/original-14076d5ccaf47ee446acda3dc4b74d5d.png?resize=1200x900);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.experience{
+    width: 100%;
+    height:80%;
+    padding: 50px 150px ;
+    /* background-color: rebeccapurple; */
+}
+.experience h1{
+    text-align: center;
+    margin-top: 70px ;
+    font-size: 22px
+}
+.experience-box{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 80px 100px ;
+    /* border: none; */
+    box-shadow: 0 0 1px black;   
+    border-radius: 20px;
+}
+.experience-box h4{
+    color: rgba(18, 126, 141, 0.817);
+
+}
+.experience-box1{
+    width: 100%;
+    height: 40%;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}    
+.experience-box1 h1{
+    font-size: 45px;
+    font-weight:500;
+}
+.experience-box1 p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.667);
+}
+.experience-box2{
+    width: 100%;
+    height: 60%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.experience-box2-box1{
+    width: 30%;
+    height: 100%;
+    /* background-color: black; */
+}
+.experience-box2-box1 i, .experience-box2-box2 i, .experience-box2-box3 i  {
+    font-size: 80px;
+    margin: 40px;
+    color: rgba(18, 126, 141, 0.817);
+
+    font-weight: 100;
+    /* padding: 50px 0; */
+}
+
+.experience-box2-box1 h1, .experience-box2-box2 h1, .experience-box2-box3 h1{
+    font-size: 20px;
+    margin: 14px 0;
+}
+.experience-box2-box1 p, .experience-box2-box2 p, .experience-box2-box3 p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.667);
+
+}
+.experience-box2-box2{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(113, 4, 4); */
+}
+.experience-box2-box3{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(174, 168, 168); */
+}
+
+.plus-premium{
+    width: 100%;
+    
+    height: 66%;
+    /* background-color: rebeccapurple; */
+    padding:50px 20px ;
+    display: flex;
+    justify-content: center;
+}
+.plus, .premium{
+    width: 40%;
+    height: 100%;
+    /* background-color:; */
+    margin: 20px;
+    /* background-color: rgba(18, 126, 141, 0.817); */
+
+    background-image: url(https://cdn4.vectorstock.com/i/1000x1000/67/78/black-and-golden-premium-business-card-design-vector-32106778.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px ;
+}
+.premium{
+    background-image: url(https://pixelobster.com/img/3/4-/4-free-minimal-vector-credit-card-icons-1.jpg);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    display: flex;
+    padding:  30px 150px;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.icons{
+    display: flex;
+    margin-top: 10px;
+    gap: 70px;
+}
+.solution ul, .company ul, .learn ul {
+    margin: 20px 0;
+    list-style: none;    
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.667);
+}
+.follow i {
+    font-size: 25px;
+}

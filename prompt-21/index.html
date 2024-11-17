@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product Launch - Coming Soon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Product Launch</h1>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Our New Product is Almost Here!</h2>
+            <p>We're launching something amazing. Stay tuned, it's coming soon!</p>
+            
+            <div id="countdown" class="countdown">
+                <div class="time-box" id="days"></div>
+                <div class="time-box" id="hours"></div>
+                <div class="time-box" id="minutes"></div>
+                <div class="time-box" id="seconds"></div>
+            </div>
+            <div class="purchase-options">
+                <button class="btn" onclick="window.location.href='#preorder'">Preorder Now</button>
+                <button class="btn" onclick="window.location.href='#notify'">Notify Me</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="preorder" id="preorder">
+        <h2>Preorder Your Product</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta veniam vero commodi qui odit atque! Neque iure culpa fugiat possimus!</p>
+        <button class="btn preorder-btn">Preorder Now</button>
+    </section>
+
+    <section class="notify" id="notify">
+        <h2>Sign up to Get Notified</h2>
+        <form action="#" method="POST" class="notify-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit" class="btn">Notify Me</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Product Launch | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
