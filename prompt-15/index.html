@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Booking Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Travel Booking Form</h1>
+    <form action="/submit" method="post">
+      <!-- Destination Dropdown -->
+      <label for="destination">Destination</label>
+      <select id="destination" name="destination">
+        <option value="">Select a destination</option>
+        <option value="paris">Paris</option>
+        <option value="new-york">New York</option>
+        <option value="tokyo">Tokyo</option>
+        <option value="barcelona">Barcelona</option>
+        <option value="sydney">Sydney</option>
+      </select>
+
+      <!-- Travel Type Dropdown -->
+      <label for="travel-type">Travel Type</label>
+      <select id="travel-type" name="travel-type">
+        <option value="">Select a travel type</option>
+        <option value="business">Business</option>
+        <option value="leisure">Leisure</option>
+        <option value="honeymoon">Honeymoon</option>
+        <option value="family">Family</option>
+      </select>
+
+      <!-- Number of Travelers Dropdown -->
+      <label for="num-travelers">Number of Travelers</label>
+      <select id="num-travelers" name="num-travelers">
+        <option value="">Select number of travelers</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8+</option>
+      </select>
+
+      <!-- Departure Date Picker -->
+      <label for="departure-date">Departure Date</label>
+      <input type="date" id="departure-date" name="departure-date">
+
+      <!-- Return Date Picker -->
+      <label for="return-date">Return Date</label>
+      <input type="date" id="return-date" name="return-date">
+
+      <!-- Submit Button -->
+      <button type="submit">Book Now</button>
+    </form>
+  </div>
+</body>
+</html>
