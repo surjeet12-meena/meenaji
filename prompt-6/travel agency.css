@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(./beautiful-girl-standing-boat-looking-mountains-ratchaprapha-dam-khao-sok-national-park-surat-thani-province-thailand_335224-849.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1px;
+}
+.about {
+    position: absolute;
+    margin-left: 1270px;
+    margin-top: 480px;
+    /* gap: 20px; */
+
+}
+.about > h4 {
+    color: rgb(146, 107, 8);
+    font-size:40px;     
+    padding: 8px;
+}
+.holidays {
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 485px;
+}
+.holidays > h4 {
+    color: rgb(146, 107, 8);
+    font-size:40px;     
+    font-weight: 900;
+    /* padding: 8px; */
+}
+.book {
+    margin-top: 550px;
+}
+.book > h4 {
+    color: rgb(146, 107, 8);
+    padding: 8px;
+    font-size:40px;     
+    font-weight: 900;
+}
